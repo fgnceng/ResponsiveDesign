@@ -1,0 +1,125 @@
+/*GENERAL SETTİNGS*/
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #1886C7;
+    text-transform:uppercase;
+}
+
+.navbar.menu {
+    border-bottom: #1886C7 2px solid ;
+}
+
+.navbar-brand {
+    color: #1886C7 !important;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link {
+
+    color: #ffffff !important;
+    text-transform: uppercase;
+    transition: color .5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #1886C7 !important;
+}
+
+#headerSection {
+
+    background: url('../images/bg8.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection .overlay {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#headerSection .row {
+
+    height: 100vh;
+}
+
+#headerSection span {
+
+    color: #1886C7 !important;
+}
+
+.btn-outline-primary {
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#features .fa {
+    font-size: 40px;
+}
+
+.features-top:hover {
+    color: #1886C7;
+    cursor: pointer;
+    transition: color .5s ease-in-out;
+}
+
+/*HİSTORY SECTİON*/
+#ourHistory h2{
+    border-left:6px solid #1886C7 !important;
+    padding-left: 30px;
+}
+
+#ourHistory .col-md-6{
+
+    display: inline;
+}
+
+/*TEAM SECTİON*/
+#team .card{
+    border:none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+#team .card:hover{
+    opacity:1;
+}
+
+#team .fa{
+    font-size: 23px;
+}
+
+/*what we do*/
+#whtweDo{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/code.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+/*wCASE STUDY SECTİON*/
+
+#caseStudy{
+    background-color:#f4f5f9;
+}
+.caseArea{
+    background-color: #ffffff;
+    margin-top:40px;
+    margin-right:-40px;
+    z-index:100;
+    padding: 40px;
+    position: relative;
+
+
+    region-fragment: auto;
+}
