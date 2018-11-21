@@ -3,15 +3,16 @@ h3 {
     font-size: 18px;
     font-weight: 400;
 }
-h2{
+
+h2 {
     font-size: 32px;
     font-weight: 400;
     color: #1886C7;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .navbar.menu {
-    border-bottom: #1886C7 2px solid ;
+    border-bottom: #1886C7 2px solid;
 }
 
 .navbar-brand {
@@ -38,15 +39,11 @@ h2{
     background: url('../images/bg8.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
+    min-height: 600px;
 }
 
 #headerSection .overlay {
     background-color: rgba(0, 0, 0, .2);
-}
-
-#headerSection .row {
-
-    height: 100vh;
 }
 
 #headerSection span {
@@ -72,54 +69,196 @@ h2{
 }
 
 /*HİSTORY SECTİON*/
-#ourHistory h2{
-    border-left:6px solid #1886C7 !important;
+#ourHistory h2 {
+    border-left: 6px solid #1886C7 !important;
     padding-left: 30px;
 }
 
-#ourHistory .col-md-6{
+#ourHistory .col-md-6 {
 
     display: inline;
 }
 
 /*TEAM SECTİON*/
-#team .card{
-    border:none;
+#team .card {
+    border: none;
     opacity: 0.5;
     cursor: pointer;
     transition: all 0.5s ease;
 
 }
-#team .card:hover{
-    opacity:1;
+
+#team .card:hover {
+    opacity: 1;
 }
 
-#team .fa{
+#team .fa {
     font-size: 23px;
 }
 
 /*what we do*/
-#whtweDo{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/code.jpeg");
+#whtweDo {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/code.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
+    margin-top: 120px;
 }
 
 /*wCASE STUDY SECTİON*/
 
-#caseStudy{
-    background-color:#f4f5f9;
+#caseStudy {
+    background-color: lightgray;
+
 }
-.caseArea{
+
+.caseArea {
     background-color: #ffffff;
-    margin-top:40px;
-    margin-right:-40px;
-    z-index:100;
-    padding: 40px;
+    margin-top: 80px;
+    margin-right: -70px;
+    z-index: 100;
+    padding: 50px;
     position: relative;
-
-
-    region-fragment: auto;
 }
+
+#caseStudy h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #1886C7;
+
+}
+
+#caseStudy .fa {
+    font-size: 40px;
+    color: #1886C7;
+}
+
+.caseImage {
+    margin-left: -40px;
+
+}
+
+/*Portfolyo section*/
+
+#portfolyo .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolyo h4 {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+
+#portfolyo .fa {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    background-color:#1886C7;
+    opacity:0;
+    transition: 1s ease;
+
+}
+.imageContainer:hover .imageOverlay{
+    opacity:.5;
+}
+
+.imageText{
+    color:white;
+    position: absolute;
+    top:40%;
+    left:40%;
+    transform: translate(-50%,-50);
+
+}
+
+#testimonials{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../images/genis.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.quote{
+    color:rgba(24,134,199,.6);
+    margin-bottom: 130px;
+}
+
+/*CONTACT SECTİON*/
+
+
+#contact{
+    background-color:lightblue;
+
+}
+
+#contact .input-group-addon{
+    width:50px;
+    border-radius: 0;
+    color:#ffffff;
+    background-color:#1886C7;
+
+}
+
+#contact .form-control, #contact .btn{
+    border-radius: 0;
+
+}
+
+.input-group-addon .fa{
+
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
