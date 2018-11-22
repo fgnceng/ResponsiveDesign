@@ -14,7 +14,6 @@ h2 {
 .navbar.menu {
     border-bottom: #1886C7 2px solid;
     height: 40px;
-
 }
 
 .navbar-brand {
@@ -26,10 +25,10 @@ h2 {
 }
 
 .nav-link {
-
     color: #ffffff !important;
     text-transform: uppercase;
     transition: color .5s ease-in-out;
+  /*  background-repeat: no-repeat;*/
 }
 
 .nav-link:hover {
@@ -37,7 +36,6 @@ h2 {
 }
 
 #headerSection {
-
     background: url('../images/bg8.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
@@ -86,7 +84,6 @@ h2 {
     opacity: 0.5;
     cursor: pointer;
     transition: all 0.5s ease;
-
 }
 
 #team .card:hover {
