@@ -13,6 +13,8 @@ h2 {
 
 .navbar.menu {
     border-bottom: #1886C7 2px solid;
+    height: 40px;
+
 }
 
 .navbar-brand {
@@ -75,7 +77,6 @@ h2 {
 }
 
 #ourHistory .col-md-6 {
-
     display: inline;
 }
 
@@ -120,6 +121,7 @@ h2 {
     z-index: 100;
     padding: 50px;
     position: relative;
+    width: 100%;
 }
 
 #caseStudy h3 {
@@ -205,7 +207,6 @@ h2 {
 
 /*CONTACT SECTİON*/
 
-
 #contact{
     background-color:lightblue;
 
@@ -224,18 +225,75 @@ h2 {
 
 }
 
-.input-group-addon .fa{
-
-    height: auto;
+p{
+    font-size: 16px;
 }
 
 
 
 
+@media screen and (max-width: 1200px) {
+    .display-3{
+        font-size:48px;
+    }
+   #ourHistory  p{
+       line-height: 20px;
+   }
+
+    #outHistory h2{
+       margin-top: 40px;
+   }
+    .col-lg-6{
+
+    }
+    .historyLeft, .historyRight{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .display-3{
+        font-size:32px;
+    }
+
+    #ourHistory p{
+        line-height: 20px;
+    }
+    h2{
+        margin-top: 40px;
+    }
+    .historyLeft, .historyRight{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .display-3{
+        font-size:20px;
+    }
+    #ourHistory p{
+        line-height: 20px;
+    }
+   .historyLeft, .historyRight{
+       text-align: center;
+   }
+   .caseImage{
+       margin-left: 0;
+        text-align: center;
+   }
+   .caseArea{
+       margin-right: 0;
+   }
+}
 
 
 
+@media screen and (max-width: 576px) {
 
+
+}
 
 
 
